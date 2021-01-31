@@ -1,0 +1,63 @@
+[[rdma_core]]
+arch = "aarch64"
+git-tree-sha1 = "ef361fff170bae146cc352cef724776f8134640c"
+libc = "glibc"
+os = "linux"
+
+    [[rdma_core.download]]
+    sha256 = "32d6cb840539da6f2880d31b4b8ee59ddb5fde743ae2e314c3bd174ceac22818"
+    url = "https://github.com/JuliaBinaryWrappers/rdma_core_jll.jl/releases/download/rdma_core-v33.1.0+0/rdma_core.v33.1.0.aarch64-linux-gnu.tar.gz"
+[[rdma_core]]
+arch = "aarch64"
+git-tree-sha1 = "e42217de9a8d2dd4f4c29c2442399fb96c816c38"
+libc = "musl"
+os = "linux"
+
+    [[rdma_core.download]]
+    sha256 = "261537e47c980518515a8c715879a6b82ea364b414412b91b77aa840bce0a740"
+    url = "https://github.com/JuliaBinaryWrappers/rdma_core_jll.jl/releases/download/rdma_core-v33.1.0+0/rdma_core.v33.1.0.aarch64-linux-musl.tar.gz"
+[[rdma_core]]
+arch = "i686"
+git-tree-sha1 = "2c4f4af61f1e73450e5aa8fc8d1e1187e385004d"
+libc = "glibc"
+os = "linux"
+
+    [[rdma_core.download]]
+    sha256 = "0813a2ee5b65dcd662e187d034b9100068db9e65c8400728ea3d3930d3f14410"
+    url = "https://github.com/JuliaBinaryWrappers/rdma_core_jll.jl/releases/download/rdma_core-v33.1.0+0/rdma_core.v33.1.0.i686-linux-gnu.tar.gz"
+[[rdma_core]]
+arch = "i686"
+git-tree-sha1 = "750ad04c2cce76dd75294622dfaefb75c95fa0f4"
+libc = "musl"
+os = "linux"
+
+    [[rdma_core.download]]
+    sha256 = "016b39a0db1c07efb4a55eb74793613a7a6cabb5bf9833937a93ce094f3e6207"
+    url = "https://github.com/JuliaBinaryWrappers/rdma_core_jll.jl/releases/download/rdma_core-v33.1.0+0/rdma_core.v33.1.0.i686-linux-musl.tar.gz"
+[[rdma_core]]
+arch = "powerpc64le"
+git-tree-sha1 = "ca589e33ffe6bf285fd146e92427a22622b7e6fd"
+libc = "glibc"
+os = "linux"
+
+    [[rdma_core.download]]
+    sha256 = "4179ad63500d745f559cbf162cef8c2a55facdb1c0c5974d7baa8a5d7348eaef"
+    url = "https://github.com/JuliaBinaryWrappers/rdma_core_jll.jl/releases/download/rdma_core-v33.1.0+0/rdma_core.v33.1.0.powerpc64le-linux-gnu.tar.gz"
+[[rdma_core]]
+arch = "x86_64"
+git-tree-sha1 = "747ba70e386b55f6fa3f944570b393862a2bf302"
+libc = "glibc"
+os = "linux"
+
+    [[rdma_core.download]]
+    sha256 = "673ef6fc143f657843dbc85c75273c2b4c70162cdc41559a3aa63227782c635a"
+    url = "https://github.com/JuliaBinaryWrappers/rdma_core_jll.jl/releases/download/rdma_core-v33.1.0+0/rdma_core.v33.1.0.x86_64-linux-gnu.tar.gz"
+[[rdma_core]]
+arch = "x86_64"
+git-tree-sha1 = "250781426d56d92c3c49ec66dd453e4565834fdf"
+libc = "musl"
+os = "linux"
+
+    [[rdma_core.download]]
+    sha256 = "03c3d53fae6cee614c9eb69b47c21511faddd3ad73ea6fcb7fc99cdb62ae8975"
+    url = "https://github.com/JuliaBinaryWrappers/rdma_core_jll.jl/releases/download/rdma_core-v33.1.0+0/rdma_core.v33.1.0.x86_64-linux-musl.tar.gz"
