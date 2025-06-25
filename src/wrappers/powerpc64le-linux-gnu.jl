@@ -20,4 +20,8 @@ function __init__()
     )
 
     JLLWrappers.@generate_init_footer()
+    if !haskey(ENV, "JULIA_IBV_CONFIG_DIR")
+        ENV["JULIA_IBV_CONFIG_DIR"] = joinpath(artifact_dir, "etc", "libibverbs.d")
+    end
+
 end  # __init__()
